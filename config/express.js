@@ -8,7 +8,7 @@ module.exports = function(){
 	var app = express();
 	
 	// variável de ambiente
-	app.set('port', 3000);
+	app.set('port', 8080);
 		
 	//middleware
 	app.use(express.static('./public'));
